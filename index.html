@@ -11,51 +11,53 @@
     <div id="custom-cursor"></div>
 
     <nav>
-        <div class="logo">ZELTUX</div>
+        <div class="logo">ZELTUX<span>.DEV</span></div>
         <div class="status-pill">
-            <span class="dot"></span> 
-            <span id="discord-status">Checking status...</span>
+            <span class="dot" id="status-dot"></span> 
+            <span id="discord-status">System Active</span>
         </div>
     </nav>
 
     <main>
         <section class="hero">
-            <h1 class="reveal">Engineering <br> <span class="gradient-text">Scalable Solutions.</span></h1>
-            <p class="reveal-delayed">I specialize in building high-performance backends and minimalist frontends that prioritize user experience.</p>
+            <div class="badge">v2.5.0 Deployment</div>
+            <h1>Engineering <br> <span class="gradient-text">Scalable Solutions.</span></h1>
+            <p>Full-stack developer specializing in backend architecture, security protocols, and minimalist interface design.</p>
             
-            <div class="stack-icons reveal-delayed">
+            <div class="stack-icons">
                 <i data-lucide="layers"></i>
                 <i data-lucide="cpu"></i>
                 <i data-lucide="database"></i>
                 <i data-lucide="shield-check"></i>
             </div>
         </section>
-        <section class="section-label">00 / SYSTEM TERMINAL</section>
-<section class="terminal-container">
-    <div class="terminal-header">
-        <div class="terminal-buttons">
-            <span class="t-dot red"></span>
-            <span class="t-dot yellow"></span>
-            <span class="t-dot green"></span>
-        </div>
-        <div class="terminal-title">guest@zeltux: ~</div>
-    </div>
-    <div class="terminal-body" id="terminal-body">
-        <div class="output">Welcome to Zeltux OS v2.0.0. Type 'help' to begin.</div>
-        <div class="input-line">
-            <span class="prompt">zeltux $></span>
-            <input type="text" id="terminal-input" autofocus spellcheck="false">
-        </div>
-    </div>
-</section>
 
-        <section class="section-label">01 / PROJECTS</section>
+        <section class="section-label">00 / SYSTEM TERMINAL</section>
+        <section class="terminal-container">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="t-dot red"></span>
+                    <span class="t-dot yellow"></span>
+                    <span class="t-dot green"></span>
+                </div>
+                <div class="terminal-title">guest@zeltux: ~</div>
+            </div>
+            <div class="terminal-body" id="terminal-body">
+                <div class="output">Welcome to Zeltux OS. Type 'help' to see available commands.</div>
+                <div class="input-line">
+                    <span class="prompt">zeltux $></span>
+                    <input type="text" id="terminal-input" autofocus spellcheck="false">
+                </div>
+            </div>
+        </section>
+
+        <section class="section-label">01 / SELECTED PROJECTS</section>
         <section id="projects" class="project-grid">
             </section>
 
         <section class="section-label">02 / CONNECT</section>
         <footer class="footer">
-            <a href="https://github.com/finchodev" class="footer-link">GitHub</a>
+            <a href="https://github.com/finchodev" target="_blank" class="footer-link">GitHub</a>
             <a href="#" class="footer-link">Discord</a>
             <a href="mailto:hello@zeltux.dev" class="footer-link">Email</a>
         </footer>
