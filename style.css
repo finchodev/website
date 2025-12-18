@@ -93,3 +93,52 @@ h1 { font-size: clamp(3rem, 10vw, 6rem); font-weight: 800; letter-spacing: -3px;
 }
 
 .footer-link:hover { color: var(--accent); transform: skewX(-10deg); }
+
+.terminal-container {
+    margin: 20px 8%;
+    background: #000;
+    border: 1px solid #27272a;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.terminal-header {
+    background: #18181b;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #27272a;
+}
+
+.t-dot { width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; }
+.red { background: #ff5f56; }
+.yellow { background: #ffbd2e; }
+.green { background: #27c93f; }
+
+.terminal-title {
+    margin-left: 20px;
+    font-size: 12px;
+    color: var(--text-dim);
+}
+
+.terminal-body {
+    padding: 20px;
+    height: 300px;
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+.output { color: #d4d4d8; white-space: pre-wrap; margin-bottom: 10px; }
+.input-line { display: flex; align-items: center; gap: 10px; }
+.prompt { color: var(--accent); font-weight: bold; }
+
+#terminal-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+}
