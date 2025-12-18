@@ -1,4 +1,4 @@
-# website
+# zeltux.dev (Personal Portfolio Website)
 WIP of my website zeltux.dev (remake)
 
 
