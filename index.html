@@ -3,34 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zeltux | Developer</title>
+    <title>Zeltux | Digital Architect</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
+    <div id="custom-cursor"></div>
+
     <nav>
-        <div class="logo">ZELTUX<span>.DEV</span></div>
-        <div class="links">
-            <a href="https://github.com" target="_blank"><i data-lucide="github"></i></a>
-            <a href="mailto:your@email.com"><i data-lucide="mail"></i></a>
+        <div class="logo">ZELTUX</div>
+        <div class="status-pill">
+            <span class="dot"></span> 
+            <span id="discord-status">Checking status...</span>
         </div>
     </nav>
 
     <main>
         <section class="hero">
-            <div class="badge">Online Portfolio</div>
-            <h1>Building the next generation of <span>web tools.</span></h1>
-            <p>Full-stack developer focused on performance, security, and clean aesthetics.</p>
-            <div class="cta-group">
-                <button class="btn-primary" onclick="window.location.href='#projects'">View Work</button>
+            <h1 class="reveal">Engineering <br> <span class="gradient-text">Scalable Solutions.</span></h1>
+            <p class="reveal-delayed">I specialize in building high-performance backends and minimalist frontends that prioritize user experience.</p>
+            
+            <div class="stack-icons reveal-delayed">
+                <i data-lucide="layers"></i>
+                <i data-lucide="cpu"></i>
+                <i data-lucide="database"></i>
+                <i data-lucide="shield-check"></i>
             </div>
         </section>
 
-        <section id="projects" class="projects">
-            <h2>Selected Projects</h2>
-            <div class="project-grid" id="project-container">
-                </div>
-        </section>
+        <section class="section-label">01 / PROJECTS</section>
+        <section id="projects" class="project-grid">
+            </section>
+
+        <section class="section-label">02 / CONNECT</section>
+        <footer class="footer">
+            <a href="https://github.com/finchodev" class="footer-link">GitHub</a>
+            <a href="#" class="footer-link">Discord</a>
+            <a href="mailto:hello@zeltux.dev" class="footer-link">Email</a>
+        </footer>
     </main>
 
     <script src="script.js"></script>
